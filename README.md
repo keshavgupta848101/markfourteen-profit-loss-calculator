@@ -1,8 +1,8 @@
-# markThirteen: Palindrome Birthday
+# markFourteen: Stock Calculator
 
 # About Application
 
-1. Check Your birthday is Palindrome or not
+1. Stock Calculator
 
 # Main Screen
 
@@ -10,4 +10,4 @@
 
 # Live Link
 
-[Live Link]()
+[Live Link](https://markfourteen-profit-loss-calculator.netlify.app/)
