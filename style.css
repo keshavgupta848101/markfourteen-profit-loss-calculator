@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgb(177, 5, 5);
+  font-family: "Recursive", sans-serif;
+  background-color: darkorange;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  height: 70vh;
+}
+.heading {
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: 3rem;
+  margin: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+input .label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+input {
+  font-size: 14px;
+  outline: #fff;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  max-width: 250px;
+  text-align: center;
+  width: 50%;
+  padding: 12px 20px;
+}
+.class-input {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 2rem;
+}
+
+#submit {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+  text-align: center;
+  /* position: absolute; */
+}
+
+#output-box {
+  display: block;
+  font-size: larger;
+  margin: 1rem 0 0;
+  text-align: center;
+}
+/* footer */
+
+.footer {
+  height: 15vh;
+  background-color: tomato;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+  border: 1rem;
+  display: block;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer .link {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
