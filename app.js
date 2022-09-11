@@ -12,15 +12,20 @@ function submitHandler() {
     let qty = Number(stockQuantity.value)
     let cp = Number(currentPrice.value)
 
+    if (ip < 0 || qty < 0 || cp < 0) {
+        showMessage(`You can not enter -ve value`)
+        return;
+    }
     calculateProfitAndLoss(ip, qty, cp)
 }
 
 function calculateProfitAndLoss(inital, quantity, current) {
 
     if (inital > current) {
-        let loss = inital - current
-        let lossInQuantity = (inital - current) * quantity;
+        let loss = inital - current // 500 - 400 = 100
+        let lossInQuantity = (inital - current) * quantity; // (500 - 400) * 2 = 200
         let lossPercentage = (loss / inital) * 100
+        console.log(lossPercentage, "LOSS");
         showMessage(`the loss is ₹ ${lossInQuantity} and loss percentage is ${lossPercentage.toFixed(2)}% `)
 
     } else if (current > inital) {
